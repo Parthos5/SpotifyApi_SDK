@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Spotify Playlists</title>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <link rel="stylesheet" href="./head.css">
+</head>
+
+<body>
+    <input type="text" id="search-input">
+    <button id="search-button" onclick = "search()">Search playlist</button>
+    <button id="search-button" onclick = "searchtrack()">Search track</button>
+    <button id="pause" onclick="pause()">Play/Pause</button>
+    <button id="next" onclick = "next()">Next</button>
+    <button id="previous" onclick = "previous()">Previous </button>
+    <button id="authorize" onclick="author()">Authorize</button>
+    <!-- <button id="playsong">Play song/Resume</button> -->    <!-- Include the Spotify Web API library -->
+
+<!-- Create a container for the playlists -->
+<div id="playlists"></div>
+
+<!-- <script src="https://sdk.scdn.co/spotify-player.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/spotify-web-api-js"></script>
+<script src="./auth.js"></script>
+        </body>
+        </html>
