@@ -1,5 +1,5 @@
-const client_id = "40e0eacdf8d744fe8bb0946f7091daf8";
-const redirect_uri = "http://127.0.0.1:5555/index.html";
+const client_id = "kudkaspotifyclientapiididhardaalo";
+const redirect_uri = "khudkawebsitekalinkidhar daalo";
 const scope = [
   "user-read-email",
   "app-remote-control",
